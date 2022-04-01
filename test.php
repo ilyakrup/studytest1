@@ -12,7 +12,7 @@
 </head>
 <body>
 <main class="form-signin">
-    <form action="account.php" method="post" calss="for">
+    <form action="backregister.php" method="post" calss="for">
         <div class="logo">
             <a href=""><img class="mb-4" src="image/logo.jpg" alt="" width="72" height="57"></a>
             <h1 class="h3 mb-3 fw-normal">Зарегестрироваться</h1>
