@@ -12,7 +12,7 @@
 </head
 <body>
 <main class="form-signin">
-    <form action="" method="post" calss="for">
+    <form action="backauth.php" method="post" calss="for">
         <div class="logo">
             <a href="test.php"><img class="mb-4" src="image/logo.jpg" alt="" width="72" height="57"></a>
             <h1 class="h3 mb-3 fw-normal">Авторизация</h1>
@@ -26,7 +26,10 @@
             <label for="floatingPassword">Пароль</label>
         </div>
         <input value="Войти" class="w-100 btn btn-lg btn-primary" type="submit">
-        <a href="test.php">Зарегестрироваться</a>
+        <div class="reg">
+            <a href="register.php">Зарегестрироваться</a>
+        </div>
+
     </form>
 </main>
 </body>
